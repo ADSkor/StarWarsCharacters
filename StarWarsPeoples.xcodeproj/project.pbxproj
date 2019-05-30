@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE7CDB7229E915400CDAD7B /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7CDB6229E915400CDAD7B /* Arrays.swift */; };
+		1EF90332229D1F8200F2BB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF90331229D1F8200F2BB9E /* AppDelegate.swift */; };
+		1EF90334229D1F8200F2BB9E /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF90333229D1F8200F2BB9E /* MainTableViewController.swift */; };
+		1EF90337229D1F8200F2BB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF90335229D1F8200F2BB9E /* Main.storyboard */; };
+		1EF90339229D1F8300F2BB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF90338229D1F8300F2BB9E /* Assets.xcassets */; };
+		1EF9033C229D1F8300F2BB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF9033A229D1F8300F2BB9E /* LaunchScreen.storyboard */; };
+		1EF90347229D2A0400F2BB9E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF90346229D2A0400F2BB9E /* Data.swift */; };
+		1EF9034B229D6A4900F2BB9E /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9034A229D6A4900F2BB9E /* MoreInfoViewController.swift */; };
+		7F6B16C84DEB58ADB5FB02D5 /* Pods_StarWarsPeoples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F869899E82C42A990C5B2F5 /* Pods_StarWarsPeoples.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EE7CDB6229E915400CDAD7B /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		1EF9032E229D1F8200F2BB9E /* StarWarsPeoples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsPeoples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF90331229D1F8200F2BB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EF90333229D1F8200F2BB9E /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		1EF90336229D1F8200F2BB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EF90338229D1F8300F2BB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EF9033B229D1F8300F2BB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EF9033D229D1F8300F2BB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF90346229D2A0400F2BB9E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		1EF9034A229D6A4900F2BB9E /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		313CEE0BA9351A65CB450E81 /* Pods-StarWarsPeoples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsPeoples.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsPeoples/Pods-StarWarsPeoples.release.xcconfig"; sourceTree = "<group>"; };
+		5F869899E82C42A990C5B2F5 /* Pods_StarWarsPeoples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsPeoples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFBE432A1C3AEE34C24BA56 /* Pods-StarWarsPeoples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsPeoples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsPeoples/Pods-StarWarsPeoples.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EF9032B229D1F8200F2BB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6B16C84DEB58ADB5FB02D5 /* Pods_StarWarsPeoples.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B233DB582BD6D17A66B5A4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFFBE432A1C3AEE34C24BA56 /* Pods-StarWarsPeoples.debug.xcconfig */,
+				313CEE0BA9351A65CB450E81 /* Pods-StarWarsPeoples.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1EF90325229D1F8200F2BB9E = {
+			isa = PBXGroup;
+			children = (
+				1EF90330229D1F8200F2BB9E /* StarWarsPeoples */,
+				1EF9032F229D1F8200F2BB9E /* Products */,
+				0B233DB582BD6D17A66B5A4A /* Pods */,
+				3D51271061724FE180FB3349 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EF9032F229D1F8200F2BB9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9032E229D1F8200F2BB9E /* StarWarsPeoples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF90330229D1F8200F2BB9E /* StarWarsPeoples */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9033D229D1F8300F2BB9E /* Info.plist */,
+				1EF90349229D2A2800F2BB9E /* Controllers */,
+				1EF90348229D2A1800F2BB9E /* View */,
+				1EF90345229D29E400F2BB9E /* ModelData */,
+			);
+			path = StarWarsPeoples;
+			sourceTree = "<group>";
+		};
+		1EF90345229D29E400F2BB9E /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				1EF90346229D2A0400F2BB9E /* Data.swift */,
+				1EE7CDB6229E915400CDAD7B /* Arrays.swift */,
+			);
+			path = ModelData;
+			sourceTree = "<group>";
+		};
+		1EF90348229D2A1800F2BB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EF90335229D1F8200F2BB9E /* Main.storyboard */,
+				1EF9033A229D1F8300F2BB9E /* LaunchScreen.storyboard */,
+				1EF90338229D1F8300F2BB9E /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EF90349229D2A2800F2BB9E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EF90331229D1F8200F2BB9E /* AppDelegate.swift */,
+				1EF90333229D1F8200F2BB9E /* MainTableViewController.swift */,
+				1EF9034A229D6A4900F2BB9E /* MoreInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D51271061724FE180FB3349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F869899E82C42A990C5B2F5 /* Pods_StarWarsPeoples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EF9032D229D1F8200F2BB9E /* StarWarsPeoples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF90340229D1F8300F2BB9E /* Build configuration list for PBXNativeTarget "StarWarsPeoples" */;
+			buildPhases = (
+				0B8BDCC05F4BC961D958CBAD /* [CP] Check Pods Manifest.lock */,
+				1EF9032A229D1F8200F2BB9E /* Sources */,
+				1EF9032B229D1F8200F2BB9E /* Frameworks */,
+				1EF9032C229D1F8200F2BB9E /* Resources */,
+				D57C3E4AE4F0C149C676FFF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWarsPeoples;
+			productName = StarWarsPeoples;
+			productReference = 1EF9032E229D1F8200F2BB9E /* StarWarsPeoples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EF90326229D1F8200F2BB9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Aleksandr Skorotkin";
+				TargetAttributes = {
+					1EF9032D229D1F8200F2BB9E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1EF90329229D1F8200F2BB9E /* Build configuration list for PBXProject "StarWarsPeoples" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EF90325229D1F8200F2BB9E;
+			productRefGroup = 1EF9032F229D1F8200F2BB9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EF9032D229D1F8200F2BB9E /* StarWarsPeoples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EF9032C229D1F8200F2BB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF9033C229D1F8300F2BB9E /* LaunchScreen.storyboard in Resources */,
+				1EF90339229D1F8300F2BB9E /* Assets.xcassets in Resources */,
+				1EF90337229D1F8200F2BB9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B8BDCC05F4BC961D958CBAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWarsPeoples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57C3E4AE4F0C149C676FFF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsPeoples/Pods-StarWarsPeoples-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsPeoples/Pods-StarWarsPeoples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF9032A229D1F8200F2BB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF90334229D1F8200F2BB9E /* MainTableViewController.swift in Sources */,
+				1EF9034B229D6A4900F2BB9E /* MoreInfoViewController.swift in Sources */,
+				1EF90332229D1F8200F2BB9E /* AppDelegate.swift in Sources */,
+				1EF90347229D2A0400F2BB9E /* Data.swift in Sources */,
+				1EE7CDB7229E915400CDAD7B /* Arrays.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EF90335229D1F8200F2BB9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EF90336229D1F8200F2BB9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EF9033A229D1F8300F2BB9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EF9033B229D1F8300F2BB9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EF9033E229D1F8300F2BB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EF9033F229D1F8300F2BB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EF90341229D1F8300F2BB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFBE432A1C3AEE34C24BA56 /* Pods-StarWarsPeoples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB3MVSHSDQ;
+				INFOPLIST_FILE = StarWarsPeoples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADSkorotkin.StarWarsPeoples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EF90342229D1F8300F2BB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313CEE0BA9351A65CB450E81 /* Pods-StarWarsPeoples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB3MVSHSDQ;
+				INFOPLIST_FILE = StarWarsPeoples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADSkorotkin.StarWarsPeoples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EF90329229D1F8200F2BB9E /* Build configuration list for PBXProject "StarWarsPeoples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF9033E229D1F8300F2BB9E /* Debug */,
+				1EF9033F229D1F8300F2BB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF90340229D1F8300F2BB9E /* Build configuration list for PBXNativeTarget "StarWarsPeoples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF90341229D1F8300F2BB9E /* Debug */,
+				1EF90342229D1F8300F2BB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EF90326229D1F8200F2BB9E /* Project object */;
+}
