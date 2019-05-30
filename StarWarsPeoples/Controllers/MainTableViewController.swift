@@ -96,21 +96,32 @@ class MainTableViewController: UITableViewController {
     }
     
     func updateTableView(json: JSON) {
-        
-        for i in 0...json["results"].count - 1 {
-            arrays.arrayOfNames.append(json["results"][i]["name"].stringValue)
-            arrays.arrayOfEyes.append(json["results"][i]["eye_color"].stringValue)
-            arrays.arrayOfHairs.append(json["results"][i]["hair_color"].stringValue)
-            arrays.arrayOfSkins.append(json["results"][i]["skin_color"].stringValue)
-            arrays.arrayOfBirths.append(json["results"][i]["birth_year"].stringValue)
-            arrays.arrayOfMasses.append(json["results"][i]["mass"].stringValue)
-            arrays.arrayOfGenders.append(json["results"][i]["gender"].stringValue)
-            arrays.arrayOfHeights.append(json["results"][i]["height"].stringValue)
+        if json["count"].stringValue != "0" {
+            for i in 0...json["results"].count - 1 {
+                arrays.arrayOfNames.append(json["results"][i]["name"].stringValue)
+                arrays.arrayOfEyes.append(json["results"][i]["eye_color"].stringValue)
+                arrays.arrayOfHairs.append(json["results"][i]["hair_color"].stringValue)
+                arrays.arrayOfSkins.append(json["results"][i]["skin_color"].stringValue)
+                arrays.arrayOfBirths.append(json["results"][i]["birth_year"].stringValue)
+                arrays.arrayOfMasses.append(json["results"][i]["mass"].stringValue)
+                arrays.arrayOfGenders.append(json["results"][i]["gender"].stringValue)
+                arrays.arrayOfHeights.append(json["results"][i]["height"].stringValue)
+            }
+            SVProgressHUD.dismiss()
+            print(arrays.arrayOfNames)
+        } else {
+            arrays.arrayOfNames.append("Персонаж отсутствует")
+            arrays.arrayOfEyes.append("N/A")
+            arrays.arrayOfHairs.append("N/A")
+            arrays.arrayOfSkins.append("N/A")
+            arrays.arrayOfBirths.append("N/A")
+            arrays.arrayOfMasses.append("N/A")
+            arrays.arrayOfGenders.append("N/A")
+            arrays.arrayOfHeights.append("N/A")
+            
+            SVProgressHUD.dismiss()
         }
-        SVProgressHUD.dismiss()
-        print(arrays.arrayOfNames)
     }
-    
     // MARK: - Navigation
     
     //GoToMoreInfo View
